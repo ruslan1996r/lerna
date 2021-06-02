@@ -1,0 +1,15 @@
+{
+	"private": true,
+	"workspaces": [ "packages/*" ],
+	"devDependencies": {
+		"lerna": "^4.0.0"
+	},
+	"scripts": {
+		"test:all": "lerna run test",
+		"test:single": "lerna run test --scope=@walnut/common",
+		"test:multi": "lerna run test --scope={@walnut/common,@walnut/server}",
+		"new-version": "lerna version --conventional-commits --yes",
+		"diff": "lerna diff"
+	},
+	"name": "lerna"
+}
