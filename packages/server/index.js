@@ -2,4 +2,4 @@ const commonFunction = require("@walnut/common");
 
 commonFunction();
 commonFunction();
-console.log("hello")
+console.log("hello123123")
