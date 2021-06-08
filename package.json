@@ -12,7 +12,8 @@
 		"lerna:mods": "lerna run mods",
 		"diff": "lerna diff",
 		"gg": "lerna run gg",
-		"ttt": "lerna run test --since master"
+		"ttt": "lerna run test --since master",
+		"publish": "lerna publish"
 	},
 	"name": "lerna"
 }
